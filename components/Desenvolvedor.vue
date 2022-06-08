@@ -5,7 +5,7 @@
                 <img src="../static/foto-perfil.jpg" alt="Foto">
             </div>
             <a href="#contato">Contato</a>
-            <a href="https://www.linkedin.com/ambry/?x-li-ambry-ep=AQLtIdiuJrQ0TQAAAYE-OQy2w6r2Mw93rk9UAGmYdzIIrOvibmRRguovRzUIc4FCKwKRPi_YU02Ujhfm8rP4l-vOcs764T3ZwBryeCAWoUMrZ2m9D3jWJA7sl-TFbWE6fUa_X5gCYDJT9ojoP92EqRFcdsS5kR_V3BQ198tR41I4nOBDVe6qeWlfvmZyLCUES9y8X0W6qG7OgDMxcGQkWU_Hba0qqSJGkn0SoBNQwOzEeiqAgNMj2bD_anOlv3NgD0CT_vIhmAnWE_us6JOTQrCEnjiMnlV69tII1cE2nVVPnKUGCXL-0dSoPuxhYrHht2qMBpnISIe3aQzgIP5Fp3smcJ9E3VIYA0qU_6WanwpzGHJRso7P1ChUljvTmCWj39KkkgA_o6fq8UKTwim2V324N8s7KrhlpMtb9GLkLw-rouwIYJWYqmab6bkCGvxFgHnEXA-oXaD8VLENWnu5u5s98KDLqn2IxYnRIPi1JI_dGPNY9PI65MB2zD3djYX5je7_SA9JpN04vfw10TIrw92sswJre3fbWtP4glIRKrOleqnJDVNFdpJ8cTF1xxMXyLqdIA&x-ambry-um-filename=Profile.pdf" target="_blank">Baixar CV</a>
+            <a href="../static/CurriculoAtualizado.pdf" download="VicenteCrespo-CV.pdf">Baixar CV</a>
            <div class="loc">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
