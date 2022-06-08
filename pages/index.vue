@@ -15,6 +15,7 @@
     <HabilidadesSlider />
     <div class="espaco"></div>
     <Contato />
+    <Footer />
   </div>
 </template>
 
@@ -26,10 +27,11 @@ import Projetos from '../components/Projetos.vue'
 import Contato from '../components/Contato.vue'
 import HabilidadesSlider from '../components/HabilidadesSlider.vue'
 import Cursos from '../components/Cursos.vue'
+import Footer from '../components/Footer.vue'
 
 export default {
   name: 'IndexPage',
-  components: { Header, Cursos, Home, Desenvolvedor, Projetos, Contato, HabilidadesSlider }
+  components: { Header, Cursos, Home, Desenvolvedor, Projetos, Contato, HabilidadesSlider, Footer }
 }
 </script>
 

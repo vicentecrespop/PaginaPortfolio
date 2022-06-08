@@ -6,6 +6,13 @@
             </div>
             <a href="#contato">Contato</a>
             <a href="https://www.linkedin.com/ambry/?x-li-ambry-ep=AQLtIdiuJrQ0TQAAAYE-OQy2w6r2Mw93rk9UAGmYdzIIrOvibmRRguovRzUIc4FCKwKRPi_YU02Ujhfm8rP4l-vOcs764T3ZwBryeCAWoUMrZ2m9D3jWJA7sl-TFbWE6fUa_X5gCYDJT9ojoP92EqRFcdsS5kR_V3BQ198tR41I4nOBDVe6qeWlfvmZyLCUES9y8X0W6qG7OgDMxcGQkWU_Hba0qqSJGkn0SoBNQwOzEeiqAgNMj2bD_anOlv3NgD0CT_vIhmAnWE_us6JOTQrCEnjiMnlV69tII1cE2nVVPnKUGCXL-0dSoPuxhYrHht2qMBpnISIe3aQzgIP5Fp3smcJ9E3VIYA0qU_6WanwpzGHJRso7P1ChUljvTmCWj39KkkgA_o6fq8UKTwim2V324N8s7KrhlpMtb9GLkLw-rouwIYJWYqmab6bkCGvxFgHnEXA-oXaD8VLENWnu5u5s98KDLqn2IxYnRIPi1JI_dGPNY9PI65MB2zD3djYX5je7_SA9JpN04vfw10TIrw92sswJre3fbWtP4glIRKrOleqnJDVNFdpJ8cTF1xxMXyLqdIA&x-ambry-um-filename=Profile.pdf" target="_blank">Baixar CV</a>
+           <div class="loc">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
+                    <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+                </svg>
+                <span>Florianópolis - SC</span>
+            </div>
         </div>
         <div class="dev">
             <div class="apresentacao">
@@ -13,15 +20,15 @@
                 <div class="texto">
                     <p>
                         Estudante de Engenharia Eletrônica no Instituto Federal de Santa Catarina. 
-                        Descobri programação na faculdade, estudando a linguagem C, e então procurei aprender
+                        Descobri programação na faculdade, estudando a linguagem C, procurei aprender
                         mais sobre programação e desenvolvimento de software através de videos e cursos online.
                     </p>
                     <p>
-                        Já completei o curso CS50x de Harvard, que tinha como foco principal o desenvolvimento Back End em linguagens como C e Python,
-                        e o curso Web Moderno da Cod3r, que tem como foco o desenvolvimento Web / Front End mas também ensina tecnologias para o Back End.
+                        Completei os cursos CS50x de ciências da computação de Harvard, cujo foco principal é o desenvolvimento Back End em linguagens como C e Python,
+                        e o curso Web Moderno de JavaScript da Cod3r, onde o foco é desenvolvimento Web / Front End mas também ensina tecnologias para o Back End.
                     </p>
                     <p>    
-                        Me considero um desenvolvedor Full Stack pois assim como consigo desenvolver aplicações web voltadas ao Front End e com design responsivo,
+                        Sou um desenvolvedor Full Stack pois assim como consigo desenvolver aplicações web voltadas ao Front End e com design responsivo,
                         consigo também trabalhar com banco de dados e a parte do Back End de aplicações. 
                     </p>
                 </div>
@@ -48,7 +55,6 @@ export default {
     #desenvolvedor {
         padding-top: 200px;
         font-family: 'Courier New', Courier, monospace;
-        height: 100vh;
     }
 
     .texto {
@@ -83,6 +89,12 @@ export default {
         text-decoration: none;
         margin-top: 5px;
         color: #fff;
+    }
+
+    .loc {
+        width: 220px;
+        text-align: center;
+        padding: 10px;
     }
 
     .perfil-foto a:hover {

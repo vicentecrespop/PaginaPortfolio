@@ -1,6 +1,6 @@
 <template>
     <div class="header" :class="{fundo: background}">
-            <a class="navbar-brand" @click="selectItem" href="#home">Vicente Crespo</a>
+            <a class="navbar-brand" @click="selectItem" href="#home" v-show="name">Vicente Crespo</a>
             <div class="header-items" :class="{fundo: background}">
                 <a class="nav-item" @click="selectItem" :class="{selectedHeader: selected && selectedItem === 'desenvolvedor-header'}" id="desenvolvedor-header" href="#desenvolvedor">Sobre</a>
             
@@ -22,7 +22,8 @@ export default {
         return {
             selected: false,
             selectedItem: '',
-            background: false
+            background: false,
+            name: false
         }
     },
     mounted() {
@@ -38,11 +39,14 @@ export default {
             this.selected = false
         },
         detectScroll(e) {
-            if (window.scrollY >= window.screen.height) {
-                this.background = true
-            } else {
-                this.background = false
-            }
+            // if (window.scrollY >= window.screen.height) {
+            //     this.background = true
+            // } else {
+            //     this.background = false
+            // }
+            this.background = window.scrollY >= window.innerHeight ? true : false
+            console.log(window.scrollY)
+            this.name = window.scrollY >= window.innerHeight * 0.5 ? true : false
         }
     }
 }

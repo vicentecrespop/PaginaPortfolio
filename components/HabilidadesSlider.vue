@@ -34,7 +34,7 @@
                     <img src="../static/bootstrap-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="Bootstrap">
                 </div>
                 <div class="slide">
-                    <img src="../static/c-logo-icon-28402.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="C">
+                    <img src="../static/c-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="90" alt="C">
                  </div>
                 <div class="slide">
                     <img src="../static/flask-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="Flask">
