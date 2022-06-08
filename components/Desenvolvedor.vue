@@ -28,7 +28,7 @@
                         e o curso Web Moderno de JavaScript da Cod3r, onde o foco é desenvolvimento Web / Front End mas também ensina tecnologias para o Back End.
                     </p>
                     <p>    
-                        Sou um desenvolvedor Full Stack pois assim como consigo desenvolver aplicações web voltadas ao Front End e com design responsivo,
+                        Sou um desenvolvedor Full Stack, pois assim como consigo desenvolver aplicações web voltadas ao Front End e com design responsivo,
                         consigo também trabalhar com banco de dados e a parte do Back End de aplicações. 
                     </p>
                 </div>

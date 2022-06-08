@@ -74,10 +74,12 @@
                 </div>
             </div>
         </div>
-        <div class="detalhes" v-if="!mostrar">
-            <span>Passe o mouse para ver mais</span>
+        <div class="legenda-espaco">
+            <div class="detalhes" v-if="!mostrar">
+                <span>Passe o mouse para ver mais</span>
+            </div>
+            <LegendaHabilidades class="fadeIn" v-if="mostrar" :nomeHabilidade="nomeHabilidade" :habilidade="habilidade"/>
         </div>
-        <LegendaHabilidades class="fadeIn" v-if="mostrar" :nomeHabilidade="nomeHabilidade" :habilidade="habilidade"/>
     </div>
 </div>
 </template>
@@ -172,6 +174,7 @@ export default {
     #habilidades {
         display: flex;
         justify-content: center;
+        /* height: auto; */
     }
 
     .detalhes {
@@ -188,6 +191,11 @@ export default {
     .zona-slider {
         margin-top: 100px;
         z-index: 2;
+    }
+
+    .legenda-espaco {
+        height: 8rem;
+        margin-bottom: 30px;
     }
 
     .botoes {
@@ -252,6 +260,12 @@ export default {
     @media (max-width: 560px) {
         .slider {
             width: 273px;
+        }
+    }
+
+    @media (max-height: 600px) {
+        #habilidades {
+            height: auto;
         }
     }
 </style>

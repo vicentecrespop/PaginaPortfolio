@@ -133,11 +133,13 @@ export default {
         .curso .aprendizado {
             width: 75%;
             margin-top: 30px;
+            margin-left: 0;
         }
 
         .curso .duracao {
             width: 100%;
             text-align: center;
+            padding-right: 0;
         }
     }
 </style>
