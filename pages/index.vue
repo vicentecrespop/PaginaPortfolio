@@ -53,7 +53,7 @@ export default {
     height: 100vh;
     position: fixed;
     top: 0px;
-    opacity: 20%;
+    filter: brightness(30%);
     z-index: 0;
   }
 

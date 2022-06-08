@@ -19,7 +19,8 @@ export default {
         padding-top: 300px;
         z-index: unset;
         color: #fff;
-        background-color: #000;
+        background: transparent;
+        z-index: 1;
     }
 
     #home h1 {
