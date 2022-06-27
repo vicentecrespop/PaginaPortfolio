@@ -53,6 +53,22 @@
                 </ul>
             </div>
         </div>
+        <div class="curso">
+            <div class="duracao">
+                <h2>Udemy</h2>
+                <p>Maio 2022 - Junho 2022</p>
+            </div>
+            <a title="Clique para ver Certificado" href="https://www.udemy.com/certificate/UC-3122e2d4-e23b-408d-9cce-3e78561fac6a/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email">
+                <img id="udemy-logo" src="../static/udemy-logo.svg" alt="Logo-Udemy">
+            </a>
+            <div class="aprendizado">
+                <h3>Curso MongoDB do básico ao avançado</h3>
+                <ul>
+                    <li>Curso de MongoDB da básico ao avançado (c/ Mongoose e projetos)</li>
+                    <li>Ministrado por Matheus Battisti</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -115,6 +131,10 @@ export default {
         font-size: 1.5rem;
         text-align: justify;
         border-bottom: 2px solid rgb(0, 110, 255);
+    }
+
+    #udemy-logo {
+        background-color: #fff;
     }
 
     @media (max-width: 1430px) {

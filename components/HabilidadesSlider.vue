@@ -174,7 +174,8 @@ export default {
     #habilidades {
         display: flex;
         justify-content: center;
-        /* height: auto; */
+        height: auto;
+        min-height: 100vh;
     }
 
     .detalhes {

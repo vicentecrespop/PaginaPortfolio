@@ -64,6 +64,8 @@ export default {
         flex-wrap: wrap;
         color: #fff;
         font-family: 'Courier New', Courier, monospace;
+        height: auto;
+        min-height: 100vh;
     }
 
     .contato-conteudo {

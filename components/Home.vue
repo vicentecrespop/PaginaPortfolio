@@ -1,8 +1,10 @@
 <template>
     <div id="home" class="main-content">
-        <h1>Portfólio</h1>
-        <p>Vicente Crespo</p>
-        <p>Desenvolvedor Web / Full Stack</p>
+        <div class="home-info">
+            <h1>Portfólio</h1>
+            <p>Vicente Crespo</p>
+            <p>Desenvolvedor Web / Full Stack</p>
+        </div>
     </div>
 </template>
 
@@ -16,7 +18,8 @@ export default {
     #home {
         flex-direction: column;
         align-items: center;
-        padding-top: 300px;
+        justify-content: center;
+        padding: 0;
         z-index: unset;
         color: #fff;
         background: transparent;

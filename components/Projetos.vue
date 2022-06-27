@@ -38,6 +38,8 @@ export default {
     #projetos {
         display: flex;
         flex-direction: column;
+        height: auto;
+        min-height: 100vh;
     }
 
     .card {
