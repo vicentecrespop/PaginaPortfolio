@@ -58,7 +58,7 @@
                 <h2>Udemy</h2>
                 <p>Maio 2022 - Junho 2022</p>
             </div>
-            <a title="Clique para ver Certificado" href="https://www.udemy.com/certificate/UC-3122e2d4-e23b-408d-9cce-3e78561fac6a/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email">
+            <a title="Clique para ver Certificado" target="_blank" href="https://www.udemy.com/certificate/UC-3122e2d4-e23b-408d-9cce-3e78561fac6a/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email">
                 <img id="udemy-logo" src="../static/udemy-logo.svg" alt="Logo-Udemy">
             </a>
             <div class="aprendizado">
