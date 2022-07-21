@@ -31,7 +31,7 @@
                     <b-card-text>
                         Aplicação Web que simula a calculadora de um celular.
                     </b-card-text>
-                    <b-button href="https://spontaneous-daifuku-ffd69c.netlify.app/" target="_blank" variant="primary">Testar Aplicação</b-button>
+                    <b-button href="https://calculadora-celular.vercel.app/" target="_blank" variant="primary">Testar Aplicação</b-button>
                     <b-button href="https://github.com/vicentecrespop/CalculadoraCelular" target="_blank" variant="secondary">Ver Projeto</b-button>      
                 </b-card>
             </div>

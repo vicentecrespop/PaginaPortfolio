@@ -43,7 +43,7 @@
                     <img src="../static/jquery-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="JQuery">
                 </div>
                 <div class="slide">
-                    <img src="../static/mongodb-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="75" alt="MongoDB">
+                    <img src="../static/mongodb-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="95" alt="MongoDB">
                 </div>
                 <div class="slide">
                     <img src="../static/mysql-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="90" alt="MySQL">
@@ -67,7 +67,7 @@
                     <img src="../static/sass-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="Sass">
                 </div>
                 <div class="slide">
-                    <img src="../static/typescript-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="78" alt="TypeScript">
+                    <img src="../static/typescript-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="85" alt="TypeScript">
                 </div>
                 <div class="slide">
                     <img src="../static/postgresql-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="PostgreSQL">
