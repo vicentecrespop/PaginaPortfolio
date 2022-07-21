@@ -9,7 +9,7 @@
                     <b-card-text>
                         Aplicação Web em que você consegue gerar um QR Code para qualquer URL que digitar.
                     </b-card-text>
-                    <b-button href="https://steady-meringue-f73009.netlify.app/" target="_blank" variant="primary">Testar Aplicação</b-button>
+                    <b-button href="https://gerador-qrc-ode.vercel.app/" target="_blank" variant="primary">Testar Aplicação</b-button>
                     <b-button href="https://github.com/vicentecrespop/Gerador-QRCode" target="_blank" variant="secondary">Ver Projeto</b-button>
                 </b-card>
             </div>
