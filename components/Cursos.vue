@@ -64,7 +64,23 @@
             <div class="aprendizado">
                 <h3>Curso MongoDB do básico ao avançado</h3>
                 <ul>
-                    <li>Curso de MongoDB da básico ao avançado (c/ Mongoose e projetos)</li>
+                    <li>Curso de MongoDB do básico ao avançado (c/ Mongoose e projetos)</li>
+                    <li>Ministrado por Matheus Battisti</li>
+                </ul>
+            </div>
+        </div>
+        <div class="curso">
+            <div class="duracao">
+                <h2>Udemy</h2>
+                <p>Junho 2022 - Julho 2022</p>
+            </div>
+            <a title="Clique para ver Certificado" target="_blank" href="https://www.udemy.com/certificate/UC-91731c59-5c1b-4ced-84ef-c9b870d2ee6c/">
+                <img id="udemy-logo" src="../static/udemy-logo.svg" alt="Logo-Udemy">
+            </a>
+            <div class="aprendizado">
+                <h3>Curso TypeScript do básico ao avançado</h3>
+                <ul>
+                    <li>Curso de TypeScript do básico ao avançado (c/ React e Express)</li>
                     <li>Ministrado por Matheus Battisti</li>
                 </ul>
             </div>
