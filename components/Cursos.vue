@@ -7,7 +7,7 @@
                 <p>Agosto 2018 - Atualmente</p>
             </div>
             <a href="https://www.ifsc.edu.br/curso-aberto/-/asset_publisher/nvqSsFwoxoh1/content/id/1035537?p_r_p_564233524_categoryId=656799" target="_blank">
-                <img src="https://media-exp1.licdn.com/dms/image/C560BAQHaOtOGVic9IA/company-logo_100_100/0/1519903450223?e=1662595200&v=beta&t=re9nvJ2Z-PcEabyW73-xs8yxeQ8ElVp00gyHo4p6VYE" alt="IFSC">
+                <img src="../static/ifsc-logo.jpg" alt="IFSC">
             </a>
             <div class="aprendizado">
                 <h3>Curso de Graduação de Engenharia Eletrônica</h3>
@@ -22,7 +22,7 @@
                 <p>Janeiro 2022 - Maio 2022</p>
             </div>
             <a title="Clique para ver Certificado" href="https://www.udemy.com/certificate/UC-dc0134a1-afcb-4315-92fd-58818e269681/" target="_blank">
-                <img src="https://media-exp1.licdn.com/dms/image/C560BAQEqmVRp2Q2Jbg/company-logo_100_100/0/1554852395434?e=1662595200&v=beta&t=QeUNvxvbgcosyAWnMeVlAKcFrg7fUwHH9BJ7SIur1d8" alt="Cod3r">
+                <img src="../static/coder-logo.jpg" alt="Cod3r">
             </a>
             <div class="aprendizado">
                 <h3>
@@ -42,7 +42,7 @@
                 <p>Novembro 2021 - Março 2022</p>
             </div>
             <a title="Clique para ver Certificado" href="https://certificates.cs50.io/a21597d9-a698-4233-9eb7-e6a6c38f599c.pdf?size=letter" target="_blank">
-                <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/0/1519878692497?e=1662595200&v=beta&t=9-Tl742P4gEjQ32RDLEJGGHBa_Wwalu8t9ZSySUM-Cc" alt="CS50x">
+                <img src="../static/harvard-logo.png" alt="CS50x">
             </a>
             <div class="aprendizado">
                 <h3>Curso CS50x de Ciências da Computação</h3>
@@ -139,6 +139,7 @@ export default {
     .curso a img {
         height: 100%;
         width: 100%;
+        background-color: #fff;
     }
 
     .curso .aprendizado {
