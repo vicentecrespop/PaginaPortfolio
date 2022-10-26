@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Vicente Crespo. Full Stack Developer - JavaScript | HTML | CSS | Python | NodeJs | React | VueJs | MongoDB... Florianópolis, SC - Brasil.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
