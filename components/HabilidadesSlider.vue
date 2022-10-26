@@ -13,13 +13,13 @@
             </div>
             <div class="slider">
                 <div class="slide">
-                    <img src="../static/javascript-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" alt="JavaScript" conhecimento="85">
+                    <img src="../static/javascript-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" alt="JavaScript" conhecimento="90">
                 </div>
                 <div class="slide">
-                    <img src="../static/css-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="85" alt="CSS">
+                    <img src="../static/css-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="95" alt="CSS">
                  </div>
                 <div class="slide">
-                    <img src="../static/html-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="89" alt="HTML"> 
+                    <img src="../static/html-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="95" alt="HTML"> 
                 </div>
                 <div class="slide">
                     <img src="../static/python-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="85" alt="Python ">
@@ -31,7 +31,7 @@
                     <img src="../static/linux-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="Linux" >
                 </div>
                 <div class="slide">
-                    <img src="../static/bootstrap-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="Bootstrap">
+                    <img src="../static/bootstrap-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="85" alt="Bootstrap">
                 </div>
                 <div class="slide">
                     <img src="../static/c-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="90" alt="C">
@@ -40,7 +40,7 @@
                     <img src="../static/flask-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="Flask">
                 </div>
                 <div class="slide">
-                    <img src="../static/jquery-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="JQuery">
+                    <img src="../static/jquery-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="90" alt="JQuery">
                 </div>
                 <div class="slide">
                     <img src="../static/mongodb-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="95" alt="MongoDB">
@@ -49,7 +49,7 @@
                     <img src="../static/mysql-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="90" alt="MySQL">
                 </div>
                 <div class="slide">
-                    <img src="../static/nodejs-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="83" alt="NodeJS">
+                    <img src="../static/nodejs-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="90" alt="NodeJS">
                 </div>
                 <div class="slide">
                     <img src="../static/nuxtjs-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="90" alt="NuxtJS">
@@ -61,7 +61,7 @@
                     <img src="../static/sql-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="90" alt="SQL">
                  </div>
                 <div class="slide">
-                    <img src="../static/vuejs-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="90" alt="VueJS">
+                    <img src="../static/vuejs-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="95" alt="VueJS">
                 </div>
                 <div class="slide">
                     <img src="../static/sass-logo.png" @mouseleave="resetaNome" @mouseenter="mostraNome" conhecimento="80" alt="Sass">
