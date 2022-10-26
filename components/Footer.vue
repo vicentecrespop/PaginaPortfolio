@@ -1,6 +1,6 @@
 <template>
     <div class="footer-comp">
-        <span>Site criado por Vicente Crespo.</span>
+        <span>Site criado por Vicente Crespo</span>
     </div>
 </template>
 
