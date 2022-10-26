@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Vicente Crespo - Full Stack / Web Developer',
+    title: 'Vicente Crespo - Full Stack | Web Developer',
     htmlAttrs: {
       lang: 'en'
     },
