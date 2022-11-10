@@ -28,10 +28,14 @@ import Contato from '../components/Contato.vue'
 import HabilidadesSlider from '../components/HabilidadesSlider.vue'
 import Cursos from '../components/Cursos.vue'
 import Footer from '../components/Footer.vue'
+import { inject } from '@vercel/analytics'
 
 export default {
   name: 'IndexPage',
-  components: { Header, Cursos, Home, Desenvolvedor, Projetos, Contato, HabilidadesSlider, Footer }
+  components: { Header, Cursos, Home, Desenvolvedor, Projetos, Contato, HabilidadesSlider, Footer },
+  created() {
+    inject()
+  }
 }
 </script>
 
