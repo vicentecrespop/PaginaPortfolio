@@ -35,6 +35,17 @@
                     <b-button href="https://github.com/vicentecrespop/CalculadoraCelular" target="_blank" variant="secondary">Ver Projeto</b-button>      
                 </b-card>
             </div>
+            <div class="projeto">
+                <b-card>
+                    <b-card-img src="../static/alwaysbmx-site.png" alt="Image" class="mb-2"></b-card-img>
+                    <b-card-title>Always BMX</b-card-title>
+                    <b-card-text>
+                        Loja Virtual de peças e roupas de bicicletas BMX.
+                    </b-card-text>
+                    <b-button href="https://e-commerce-stripe-teste.vercel.app/" target="_blank" variant="primary">Testar Aplicação</b-button>
+                    <b-button href="https://github.com/vicentecrespop/e-commerce-stripe" target="_blank" variant="secondary">Ver Projeto</b-button>      
+                </b-card>
+            </div>
         </div>
     </div>
 </template>
@@ -67,6 +78,7 @@ export default {
         margin-top: 10px;
         height: 100%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
     }
@@ -85,6 +97,12 @@ export default {
     .titulo-projetos {
         background-color: #081C15;
         color: #fff;
+    }
+
+    @media (max-width: 1460px) {
+        .projeto {
+            margin: 50px 90px 40px 90px;
+        }
     }
 
     @media (max-width: 1030px) {
