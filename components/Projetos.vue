@@ -46,6 +46,17 @@
                     <b-button href="https://github.com/vicentecrespop/e-commerce-stripe" target="_blank" variant="secondary">Ver Projeto</b-button>      
                 </b-card>
             </div>
+            <div class="projeto">
+                <b-card>
+                    <b-card-img src="../static/Site-McDonalds.jpg" alt="Image" class="mb-2"></b-card-img>
+                    <b-card-title>Cópia Site McDonalds Brasil</b-card-title>
+                    <b-card-text>
+                        Aplicação frontend do template do site do McDonalds Brasil.
+                    </b-card-text>
+                    <b-button href="https://mc-donalds-template.vercel.app/" target="_blank" variant="primary">Testar Aplicação</b-button>
+                    <b-button href="https://github.com/vicentecrespop/McDonaldsTemplate" target="_blank" variant="secondary">Ver Projeto</b-button>      
+                </b-card>
+            </div>
         </div>
     </div>
 </template>
