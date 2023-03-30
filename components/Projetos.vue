@@ -15,6 +15,17 @@
             </div>
             <div class="projeto">
                 <b-card>
+                    <b-card-img src="../static/site-imagineshop.png" alt="Image" class="mb-2"></b-card-img>
+                    <b-card-title>ImagineShop BMX</b-card-title>
+                    <b-card-text>
+                        Loja virtual de venda de produtos de BMX.
+                    </b-card-text>
+                    <b-button href="https://imagine-shop-bmx.vercel.app/" target="_blank" variant="primary">Testar Aplicação</b-button>
+                    <b-button href="https://github.com/vicentecrespop/ImagineShop-BMX" target="_blank" variant="secondary">Ver Projeto</b-button>
+                </b-card>
+            </div>
+            <div class="projeto">
+                <b-card>
                     <b-card-img src="../static/site-gastosmensais.png" alt="Image" class="mb-2"></b-card-img>
                     <b-card-title>Gastos Mensais</b-card-title>
                     <b-card-text>
