@@ -2,7 +2,7 @@
     <div id="desenvolvedor" class="main-content">
         <div class="perfil-foto d-flex flex-column">
             <div class="foto">
-                <img src="../static/foto-perfil.jpg" alt="Foto">
+                <img src="../static/perfil-lg.jpg" alt="Foto">
             </div>
             <a href="#contato">Contato</a>
             <a href="/VicenteCrespo-CV.pdf" target="_blank">Baixar CV</a>
@@ -72,6 +72,7 @@ export default {
         border: 2px solid rgb(0, 110, 255);
         border-radius: 500px;
         width: 220px;
+        height: 220px;
         overflow: hidden;
     }
 
@@ -105,8 +106,9 @@ export default {
     }
 
     .foto img {
-        width: 230px;
-        height: 220px;
+        width: 320px;
+        height: 380px;
+        margin: -45px 0 0 -40px;
     }
 
     .dev {
